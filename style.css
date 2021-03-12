@@ -1,0 +1,77 @@
+#race {
+	text-align: center;
+	background-color: #242021;
+}
+
+h1, h2, h3 {
+	color: 	#a2a2a2;
+}
+
+h3 { 
+	font-size: 25px;
+ }
+
+h2 { 
+	font-size: 35px; 
+}
+
+h1 {
+	 font-size: 50px; 
+	}
+
+.raceTrack{
+	position: relative;
+	display: block;
+	height: 60vh;
+}
+
+.car1{
+    right: 80%;
+    top: -15%;
+    position: absolute;
+		width: 300px; 
+		color: #ffebf7;
+}
+
+.car2{
+	right: 80%;
+	top: 35%;
+	position: absolute;
+	width: 300px;
+}
+
+.colorPink{
+	color: #ffebf7;
+}
+
+.colorRed{
+	color:#ba0000;
+}
+
+
+
+.flag{
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	display: none;
+}
+
+.counter{
+	display: none;
+	position: absolute;
+	top: 47%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 111px;
+	color: white;
+	text-shadow: 2px 2px 8px #a2a2a2;
+}
+
+.car-left,
+.car-right,
+.storage {
+	padding: 15px;
+	color: #a2a2a2;
+	border: 2px solid #dddddd;
+}
